@@ -1,0 +1,30 @@
+.button {
+    text-decoration: none;
+    color: #5591F1;
+    border: solid 1px;
+    border-radius: 6px;
+    border-color: #5591F1;
+    background-color: white;
+  }
+.menu {
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 20%;    
+    /*text-align: center;*/
+}
+.line_1 {
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #4F4F4F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;    
+}
+.line_2 {
+    margin-left: 20%;
+    margin-right: 20%;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    height: 16px;  
+}
