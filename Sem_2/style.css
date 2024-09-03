@@ -14,3 +14,45 @@ a {
     line-height: 36px;
     font-weight: bold;
 }
+
+.headline_2{
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+.content{
+   font-style: normal;
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 30px;
+   color: #7D7987; 
+}
+
+.foto_style{
+    border-radius: 10px;    
+}
+
+.input_field{
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.button{
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.font_style{
+    font-family: sans-serif;
+}
