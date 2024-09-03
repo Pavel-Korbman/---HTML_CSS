@@ -43,16 +43,18 @@ a {
     border-radius: 15px;
     font-size: 14px;
     line-height: 30px;
+    font-family: sans-serif;
 }
 
-.button{
+.form_button{
     width: 100px;
     height: 30px;
     font-size: 14px;
     border: 1px solid #ccc;
     border-radius: 10px;
+    font-family: sans-serif;
 }
 
-.font_style{
+body{
     font-family: sans-serif;
 }
