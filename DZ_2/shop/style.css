@@ -2,8 +2,8 @@ a {
     text-decoration: none;
 }
 
-body{
-    font-family: sans-serif ;
+body {
+    font-family: sans-serif;
 }
 
 .menu_point {
@@ -12,14 +12,14 @@ body{
     line-height: 20px;
 }
 
-.headline{
+.headline {
     color: #222;
     font-size: 28px;
     line-height: 36px;
     font-weight: bold;
 }
 
-.text_content{
+.text_content {
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
@@ -27,7 +27,7 @@ body{
     color: #7D7987;
 }
 
-.sub_headline{
+.sub_headline {
     color: coral;
     font-style: normal;
     font-weight: 700;
