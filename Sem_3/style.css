@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+    background: #020a18;
+}
+
+.header {
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 10px;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    text-align: center;
+    backdrop-filter: blur(200px);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, #fff 100%);
+    opacity: 0.02;
+}
+
+.header__link {
+    color: #fff;
+    padding-right: 30px;
+}
+
+.top__content {
+    color: #fff;
+}
