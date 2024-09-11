@@ -63,16 +63,45 @@ a {
     color: #828282;    
 }
 
-.description{
-    
-}
-
-.banner__block{
-
+.banners__block{
+    margin-left: 16px;
+    margin-right: 16px;
+    /*display: grid;
+    grid-template-columns: repeat(2, 202px);*/
 }
 
 .banner{
+    
+}
 
+.banner__bgr{
+    /*position: relative;*/
+}
+
+.title__banner{
+    width: 175px;
+    font-size: 22px;
+    color: #fff;
+    position: absolute;
+    top: 55px;
+    left: 50px;
+}
+.description{
+    width: 175px;
+    font-size: 12px;
+    color: #fff;
+    position: absolute;
+    top: 114px;
+    left: 50px;
+}
+
+.description__1{
+    width: 175px;
+    font-size: 12px;
+    color: #fff;
+    position: absolute;
+    top: 129px;
+    left: 50px;
 }
 
 
