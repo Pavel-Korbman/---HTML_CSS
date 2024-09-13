@@ -1,24 +1,25 @@
 * {
     margin: 0;
     padding: 0;
-    border: none;    
+    border: none;
 }
 
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif}
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
 
 a {
     text-decoration: none;
 }
 
-.custom__center{
+.custom__center {
     padding-left: calc(50% - 481px);
     padding-right: calc(50% - 481px);
 }
 
-.header {    
+.header {
     display: flex;
-    justify-content: space-between;   
+    justify-content: space-between;
     padding-top: 20px;
     padding-bottom: 20px;
     box-shadow: 0 0 30px 0 rgba(30, 47, 73, 0.1);
@@ -42,7 +43,7 @@ a {
     background: none;
 }
 
-.headline{
+.headline {
     text-align: center;
     padding-top: 60px;
     padding-bottom: 23px;
@@ -50,35 +51,43 @@ a {
     margin-right: 16px;
 }
 
-.title{
+.title {
     font-weight: 800;
-    font-size: 22px;    
-    color: #4f4f4f;    
+    font-size: 22px;
+    color: #4f4f4f;
     padding-bottom: 12px;
 }
 
-.text{
+.text {
     font-weight: 400;
-    font-size: 18px;    
-    color: #828282;    
+    font-size: 18px;
+    color: #828282;
 }
 
-.banners__block{
+.banners__block {
     margin-left: 16px;
     margin-right: 16px;
-    /*display: grid;
-    grid-template-columns: repeat(2, 202px);*/
+    display: grid;
+    grid-template-columns: repeat(2, 450px);
+    gap: 20px;
 }
 
-.banner{
-    
+.banner {
+    position: relative;
 }
 
-.banner__bgr{
-    /*position: relative;*/
+.banner__bgr {
+    width: 446px;
+    /*box-shadow: 5px 5px 15px 0 rgba(133, 4, 60, 0.4);*/
+    filter: drop-shadow(5px 5px 15px rgba(133, 4, 60, 0.4));
 }
 
-.title__banner{
+.banner__bgr1 {
+    width: 446px;
+    filter: drop-shadow(5px 5px 15px rgba(65, 17, 206, 0.4));
+}
+
+.title__banner {
     width: 175px;
     font-size: 22px;
     color: #fff;
@@ -86,7 +95,8 @@ a {
     top: 55px;
     left: 50px;
 }
-.description{
+
+.description {
     width: 175px;
     font-size: 12px;
     color: #fff;
@@ -95,7 +105,7 @@ a {
     left: 50px;
 }
 
-.description__1{
+.description__1 {
     width: 175px;
     font-size: 12px;
     color: #fff;
@@ -105,16 +115,41 @@ a {
 }
 
 
+.product {
+    padding-top: 60px;
+    padding-bottom: 23px;
+    margin-left: 16px;
+    margin-right: 16px;
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
 
-.button-block {
-    padding: 23px 23px;
+
+.product__photo {
+    width: 446px;
+    filter: drop-shadow(5px 5px 15px rgba(133, 4, 60, 0.4));
+}
+
+.product__title {
+    font-weight: 600;
+    font-size: 18px;
+    color: #828282;
+}
+
+.button__block {
+    padding-top: 50px;
+}
+
+.button__block__basic {
+    padding-top: 50px;
     text-align: center;
 }
 
 .button {
     text-align: center;
     border-radius: 15px;
-    padding: 15px 20px;
+    padding: 15px 25px;
     width: 168px;
     height: 50px;
     color: white;
