@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Open Sans';
+    background: #020a18;
+}
+
+.center {
+    padding-left: calc(50% - 573px);
+    padding-right: calc(50% - 573px);
+}
+
+.top {
+    padding-bottom: 99px;
+}
+
+.header {
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+}
+
+.header__content {
+    position: absolute;
+    top: 44px;
+    padding-left: calc(50% - 206px);
+    padding-right: calc(50% - 206px);
+}
+
+.header__menu {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap
+}
+
+.header__bgr {
+    border-radius: 10px;
+    height: 100px;
+    backdrop-filter: blur(200px);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, #fff 100%);
+    opacity: 0.02;
+}
+
+.header__link {
+    color: #fff;
+}
+
+.top__content {
+    margin-top: 168px;
+    margin-bottom: 197px;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top__info {
+    width: 604px;
+}
+
+.subtitle {
+    margin-bottom: 32px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 160%;
+    font-weight: 600;
+    color: #3a68b8;
+}
+
+.title {
+    margin-bottom: 48px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 130%;
+}
+
+.text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    opacity: 0.7;
+}
+
+.top__buttons {
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.button {
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px 32px;
+    font-weight: 600;
+    font-size: 20px;
+    background: #3a68b8;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.poligon {
+    height: 19px;
+    width: 19px;
+}
+
+.top__logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top__img {
+    height: 59px;
+}
