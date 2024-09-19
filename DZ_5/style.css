@@ -1,12 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    border: none;
-}
-
-.center {
-    padding-left: calc(50% - 586px);
-    padding-right: calc(50% - 586px);
 }
 
 a {
@@ -17,63 +11,52 @@ body {
     font-family: sans-serif;
 }
 
+.center {
+    padding-left: calc(50% - 585px);
+    padding-right: calc(50% - 585px);
+}
+
 .top {
-    padding-bottom: 102px;
-}
-
-.header {
-    padding-top: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.header__menu {
-    display: flex;
-    gap: 36px;
-}
-
-.header__link {
-    font-weight: 400;
-    font-size: 14px;
-    color: #000000
-}
-
-.header__link__active {
-    font-weight: 400;
-    font-size: 14px;
-    color: #F25822
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #000;
 }
 
 .top__content {
-    margin-top: 94px;
-    margin-bottom: 259px;
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    gap: 30px;
+}
+
+.top__item {
+    height: 231px;
+    padding: 30px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 39px;
-    flex-wrap: wrap-reverse;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.shadow {    
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.icon {
+    height: 70px;
+    margin-top: 10px;
 }
 
 .title {
-    padding-bottom: 20px;
-    font-weight: 400;
-    font-size: 60px;
-    color: #000;
-    width: 522px;
+    font-weight: 600;
+    font-size: 24px;
 }
 
 .text {
     font-weight: 400;
-    font-size: 20px;
-    color: #888;
-    width: 466px;
+    font-size: 15px;
 }
 
-.top__buttons {
-    margin-top: 37px;
-}
+.top__buttons {}
 
 .button {
     margin-right: 72px;
@@ -87,14 +70,7 @@ body {
 }
 
 .top__link {
-    font-weight: 400;
-    font-size: 15px;
-    color: #aaa;
-}
-
-.top__logos{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    font-weight: 600;
+    font-size: 11px;
+    color: #000;
 }
