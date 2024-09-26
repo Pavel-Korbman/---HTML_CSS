@@ -182,3 +182,18 @@ a {
     }
 }
 
+@media (max-width:767px) {
+    .custom__center {
+        padding-left:16px;
+        padding-right: 16px;
+    }
+    
+    .banners__block {
+        display: grid;
+        grid-template-columns: repeat(1, 450px);
+        gap: 20px;
+        justify-items: center;
+        justify-content: center;
+    }
+}
+
