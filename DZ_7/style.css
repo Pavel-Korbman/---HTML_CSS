@@ -40,15 +40,15 @@ body {
 
 .title__block {
     margin-bottom: 65px;
-    height: 764px;
     background-color: #f1e4e6;
-    display: flex;
-    gap: 257px;
 }
+
+
 
 .slogan {
     height: 93px;
     margin-top: 290px;
+    margin-right: 104px;
 }
 
 .type__block {
@@ -74,7 +74,7 @@ body {
     justify-content: center;
 }
 
-.item {   
+.item {
     background-color: #f8f8f8;
 }
 
@@ -124,10 +124,61 @@ h4 {
     justify-content: center;
 }
 
-.button {    
-    border: 1px solid #f26376;    
+.button {
+    border: 1px solid #f26376;
     font-weight: 400;
     font-size: 16px;
     color: #f26376;
-    padding: 16px 40px;    
+    padding: 16px 40px;
+}
+
+.off {
+    display: none;
+}
+
+@media (max-width: 1140px) {
+    .center {
+        padding-left: calc(50vw - 368px);
+        padding-right: calc(50vw - 368px);
+    }
+
+    .header__logo {
+        padding-left: 15px;
+    }
+
+    .header__buttons {
+        padding-right: 15px;
+    }
+
+    .title__block {
+        margin-bottom: 65px;
+    }
+
+    .title__foto {
+        padding-left: 92px;
+    }
+
+    .type__block {        
+        gap: 20px;        
+    }
+
+    .title {
+        padding-top: 117px;
+        padding-bottom: 73px;     
+        gap: 13px;
+    }
+
+    .goods {
+       
+        grid-template-columns: repeat(2, 360px);
+        gap: 16px;        
+    }
+
+    .off {
+        display: flex;
+    }
+
+    .on {
+        display: none;
+    }
 }
