@@ -43,14 +43,6 @@ body {
     background-color: #f1e4e6;
 }
 
-
-
-.slogan {
-    height: 93px;
-    margin-top: 290px;
-    margin-right: 104px;
-}
-
 .type__block {
     display: flex;
     flex-wrap: wrap;
