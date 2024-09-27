@@ -74,8 +74,7 @@ body {
     justify-content: center;
 }
 
-.item {
-   
+.item {   
     background-color: #f8f8f8;
 }
 
@@ -125,10 +124,8 @@ h4 {
     justify-content: center;
 }
 
-.button {
-    
-    border: 1px solid #f26376;
-    
+.button {    
+    border: 1px solid #f26376;    
     font-weight: 400;
     font-size: 16px;
     color: #f26376;
