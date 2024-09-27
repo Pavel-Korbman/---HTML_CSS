@@ -160,8 +160,7 @@ h4 {
         gap: 13px;
     }
 
-    .goods {
-       
+    .goods {       
         grid-template-columns: repeat(2, 360px);
         gap: 16px;        
     }
