@@ -23,8 +23,7 @@ body {
 }
 
 .header {
-    height: 75px;
-    width: 100vw;
+    height: 75px;    
     background-color: #222222;
     display: flex;
     justify-content: space-between;
