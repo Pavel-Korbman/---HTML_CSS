@@ -24,6 +24,7 @@ body {
 
 .header {
     height: 75px;
+    width: 100vw;
     background-color: #222222;
     display: flex;
     justify-content: space-between;
