@@ -30,6 +30,8 @@ body {
     padding-bottom: 100px;
 }
 
+/*Вариант стилизации выпадающего текста, списка  <details>*/
+
 summary {
     display: block;
   }
