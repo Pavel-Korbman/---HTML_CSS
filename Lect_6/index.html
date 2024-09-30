@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header class="header">
         <nav class="header__menu">
@@ -15,6 +17,79 @@
         </nav>
     </header>
 
-    <main class="line">Уникальный контент страницы</main>
+    <main class="content">
+        <section class="about">
+            <h2>Обо мне</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia obcaecati dolor at quae architecto a,
+                suscipit ratione veritatis dignissimos enim! Architecto doloribus vel dolorem suscipit non numquam
+                nostrum asperiores quo?</p>
+        </section>
+        <section>
+            <h2>Мои навыки</h2>
+            <article>
+                <h3>HTML 5</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </article>
+            <article>
+                <h3>CSS</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </article>
+            <article>
+                <h3>JS</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </article>
+        </section>
+        <section>
+            <h2>Первые шаги в разработке</h2>
+            <figure>
+                <figcaption>Уровень ЗП</figcaption>
+                <img src="#" alt="ЗП">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, perferendis?</p>
+                    <ul>
+                        <li>Список1</li>
+                        <li>Список2</li>
+                        <li>Список3</li>
+                    </ul>
+                </div>
+            </figure>
+
+        </section>
+        <section>
+            <h2>Истории обо мне</h2>
+            <details>
+                <summary>История работы в первой компании</summary>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt minima saepe fuga? Cupiditate ex enim voluptate debitis suscipit molestias sunt repellendus non ut, sint magnam tenetur sequi quaerat animi sit.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, voluptate.
+            </details>
+            <details open>
+                <summary>Опыт работы</summary>
+                <h3>Название компании</h3>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt minima saepe fuga? Cupiditate ex enim voluptate debitis suscipit molestias sunt repellendus non ut, sint magnam tenetur sequi quaerat animi sit.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, voluptate.
+                <h3>Минусы работы</h3>
+                <ul>
+                    <li>пункт1</li>
+                    <li>пункт2</li>
+                    <li>пункт3</li>                    
+                </ul>
+            </details>
+        </section>
+
+        <section>
+            <h2>Оставить заявку на проект</h2>
+            <form action="#">
+                Ваше имя: <input autofocus title="введите имя" required type="text">
+                <p></p>
+                Телефон (Введите телефон в формате 2-xxx-xxx): <input type="tel" pattern="2-[0-9]{3}-[0-9]{3}">
+                <p></p>
+                <button type="submit">Оставить заявку</button>
+            </form>
+            <!-- required - обязательно для заполнения. title - подсказка при наведении autofocus - фокусировка на поле при переходе на страницу -->
+
+        </section>
+
+    </main>
 </body>
+
 </html>

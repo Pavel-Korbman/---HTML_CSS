@@ -1,8 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    border: none;    
-}
+
 
 a {
     text-decoration: none;
@@ -29,11 +25,25 @@ body {
     color: wheat;
 }
 
-.line{
-    font-size: large;
-    font-weight: 800;
-    display: flex;
-    justify-content: center;
+.content{       
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
+summary {
+    display: block;
+  }
+  
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  
+  summary::before {
+    content: "открыть";
+    padding-right: 0.5em;
+    color: blue;
+  }
+  
+  details[open] > summary::before {
+    content: "закрыть";
+  }
