@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
+<!-- Симантические элементы HTML5-->
+
 <body>
     <header class="header">
         <nav class="header__menu">
@@ -16,7 +18,7 @@
             <a class="punkt" href="#">link3</a>
         </nav>
     </header>
-
+    <!-- Блоки информации -->
     <main class="content">
         <section class="about">
             <h2>Обо мне</h2>
@@ -59,31 +61,35 @@
             <h2>Истории обо мне</h2>
             <details>
                 <summary>История работы в первой компании</summary>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt minima saepe fuga? Cupiditate ex enim voluptate debitis suscipit molestias sunt repellendus non ut, sint magnam tenetur sequi quaerat animi sit.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt minima saepe fuga? Cupiditate ex enim
+                voluptate debitis suscipit molestias sunt repellendus non ut, sint magnam tenetur sequi quaerat animi
+                sit.
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, voluptate.
             </details>
             <details open>
                 <summary>Опыт работы</summary>
                 <h3>Название компании</h3>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt minima saepe fuga? Cupiditate ex enim voluptate debitis suscipit molestias sunt repellendus non ut, sint magnam tenetur sequi quaerat animi sit.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt minima saepe fuga? Cupiditate ex enim
+                voluptate debitis suscipit molestias sunt repellendus non ut, sint magnam tenetur sequi quaerat animi
+                sit.
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus, voluptate.
                 <h3>Минусы работы</h3>
                 <ul>
                     <li>пункт1</li>
                     <li>пункт2</li>
-                    <li>пункт3</li>                    
+                    <li>пункт3</li>
                 </ul>
             </details>
         </section>
-
+        <!-- Добавление форм-->
         <section>
             <h2>Оставить заявку на проект</h2>
             <form action="#">
                 Ваше имя: <br> <input autofocus title="введите имя" required type="text">
-                <p></p>            
+                <p></p>
                 Телефон (Введите телефон в формате 2-xxx-xxx): <br> <input type="tel" pattern="2-[0-9]{3}-[0-9]{3}">
                 <p></p>
-                Ваш email: <br> <input type="email"> 
+                Ваш email: <br> <input type="email">
                 <p></p>
                 Количество проектов: <br> <input type="number" value="1" min="1" max="10">
                 <p></p>
@@ -96,6 +102,24 @@
             <!-- required - обязательно для заполнения. title - подсказка при наведении. autofocus - фокусировка на поле при переходе на страницу. pattern - регулярные выражения (правила, ограничения при заполнении поля). value - предзаполненное число -->
 
         </section>
+        <!-- Добавление аудио и видео-->
+        <section>
+            <h2>МУЗЫКАЛЬНЫЙ РАЗДЕЛ САЙТА</h2>
+            <audio id="player" controls src="media/1.mp3" loop muted preload="metadata"></audio>
+            <label for="player">КИШ</label>
+            <!-- controls - кнопки управления плеера. loop - зацикленное воспроизведение. muted - кнопка звука по дефолту в положении выкл. preload - какую часть файла загружать для начала воспроизведения (none - Не загружать файл. metadata - только служебную информацию продолжительность звучания и др. auto - файл целиком)  -->
+        </section>
+
+        <section>
+            <h2>ВИДЕО РАЗДЕЛ САЙТА</h2>
+            <video class="video" controls src="media/2.mp4"  preload="metadata"></video>            
+        </section>
+
+        <section class="video__box">
+            <h1 class="video__line">ВИДЕО О ТИЛЬДЕ</h1>
+            <video class="video__big" controls src="#"  preload="metadata"></video>            
+        </section>
+
 
     </main>
 </body>
