@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;    
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.center {
+    padding-left: calc(50vw - 570px);
+    padding-right: calc(50vw - 570px);
+}
+
+.header {
+    height: 75px;    
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    display: flex;
+    gap: 40px;
+    align-items: flex-end;
+}
+
+.header__buttons {
+    display: flex;
+    gap: 33px;
+    align-items: center;
+}
+
+.title__block {
+    margin-bottom: 65px;
+    background-color: #f1e4e6;
+}
+
+.type__block {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.title {
+    padding-top: 104px;
+    padding-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.goods {
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    gap: 30px;
+    justify-content: center;
+}
+
+.item {
+    background-color: #f8f8f8;
+}
+
+.h1 {
+    font-weight: 400;
+    font-size: 30px;
+    color: #222;
+}
+
+h5 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #9f9f9f;
+}
+
+h3 {
+    width: 324px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #000;
+    margin-top: 24px;
+    margin-left: 18px;
+}
+
+p {
+    width: 324px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #5d5d5d;
+    margin-top: 20px;
+    margin-left: 18px;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #f16d7f;
+    margin-top: 20px;
+    margin-left: 18px;
+    margin-bottom: 24px;
+}
+
+.button__block {
+    margin-top: 48px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    border: 1px solid #f26376;
+    font-weight: 400;
+    font-size: 16px;
+    color: #f26376;
+    padding: 16px 40px;
+}
+
+.off {
+    display: none;
+}
+
+@media (max-width: 1140px) {
+    .center {
+        padding-left: calc(50vw - 368px);
+        padding-right: calc(50vw - 368px);
+    }
+
+    .header__logo {
+        padding-left: 15px;
+    }
+
+    .header__buttons {
+        padding-right: 15px;
+    }
+
+    .title__block {
+        margin-bottom: 65px;
+    }
+
+    .title__foto {
+        padding-left: 92px;
+    }
+
+    .type__block {        
+        gap: 20px;        
+    }
+
+    .title {
+        padding-top: 117px;
+        padding-bottom: 73px;     
+        gap: 13px;
+    }
+
+    .goods {       
+        grid-template-columns: repeat(2, 360px);
+        gap: 16px;        
+    }
+
+    .off {
+        display: flex;
+    }
+
+    .on {
+        display: none;
+    }
+}
