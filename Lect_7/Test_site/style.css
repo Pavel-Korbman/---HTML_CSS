@@ -29,19 +29,21 @@ a {
 
 .header__link {
     padding-left: 4px;
-    background: none;
+   
+}
+
+.header__link:hover{
+    filter: drop-shadow(3px 3px 5px rgba(2, 162, 255, 0.4));
 }
 
 .header__link__start {
     margin-left: 16px;
-    margin-right: 16px;
-    background: none;
+    margin-right: 16px;   
 }
 
 .header__link__end {
     margin-right: 16px;
-    padding-left: 54px;
-    background: none;
+    padding-left: 54px;    
 }
 
 .headline {
@@ -73,7 +75,7 @@ a {
 
 .banner {
     position: relative;
-    box-sizing: border-box;
+    box-sizing: border-box;    
 }
 
 .banner__bgr {
