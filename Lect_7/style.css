@@ -1,0 +1,73 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    height: 75px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.header__menu {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.punkt {
+    color: wheat;
+}
+
+.content {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/*Вариант стилизации выпадающего текста, списка  <details>*/
+
+summary {
+    display: block;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary::before {
+    content: "открыть";
+    padding-right: 0.5em;
+    color: blue;
+}
+
+details[open]>summary::before {
+    content: "закрыть";
+}
+
+.video {
+    height: 400px;
+}
+
+.video__box {    
+    width: 50vw;
+    height: 50vh;
+    position: relative;
+}
+
+.video__line {
+    color: white;
+    left: 15vw;
+    top: 15vh;
+    z-index: 5;
+    position: absolute;
+}
+
+.video__big {
+    width: 50vw;
+    height: 50vh;
+    position: absolute;
+}
