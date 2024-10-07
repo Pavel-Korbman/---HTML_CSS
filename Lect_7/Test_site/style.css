@@ -24,36 +24,36 @@ a {
     padding-bottom: 20px;
     box-shadow: 0 0 30px 0 rgba(30, 47, 73, 0.1);
     background: #fff;
-    
+
 }
 
 .header__link {
     padding-left: 4px;
-   
+
 }
 
-.header__link:hover{
+.header__link:hover {
     filter: drop-shadow(3px 3px 5px rgba(141, 141, 141, 0.4));
 }
 
 .header__link__start {
     margin-left: 16px;
-    margin-right: 16px;   
+    margin-right: 16px;
 }
 
-.header__link__end:hover{
+.header__link__end:hover {
     filter: drop-shadow(3px 3px 5px rgba(141, 141, 141, 0.4));
 }
 
 .header__link__end {
     margin-right: 16px;
-    padding-left: 54px;    
+    padding-left: 54px;
 }
 
 .headline {
     text-align: center;
     padding-top: 60px;
-    padding-bottom: 23px;   
+    padding-bottom: 23px;
 }
 
 .title {
@@ -69,6 +69,34 @@ a {
     color: #828282;
 }
 
+.text__link:link {
+    color: darkblue;
+}
+
+.text__link:visited {
+    color: aquamarine;
+}
+
+.text__link:hover {
+    color: orangered;
+}
+
+.text__link:active {
+    color: darkred;
+}
+
+.text__link:first-child {
+    text-decoration: underline;
+}
+
+.text__link:last-child {
+    font-weight: 600;
+}
+
+.text__link:nth-child(2) {
+    text-decoration: underline;
+} /* 2n - каждый второй элемент, 2n-1 первый третий ... */
+
 .banners__block {
     display: grid;
     grid-template-columns: repeat(2, 450px);
@@ -79,7 +107,7 @@ a {
 
 .banner {
     position: relative;
-    box-sizing: border-box;    
+    box-sizing: border-box;
 }
 
 .banner__bgr {
@@ -145,7 +173,7 @@ a {
     color: #828282;
 }
 
-.product__text{
+.product__text {
     font-weight: 445;
     font-size: 18px;
     color: #828282;
@@ -178,7 +206,7 @@ a {
         padding-left: calc(50vw - 300px);
         padding-right: calc(50vw - 300px);
     }
-    
+
     .banners__block {
         display: grid;
         grid-template-columns: repeat(1, 450px);
@@ -190,10 +218,10 @@ a {
 
 @media (max-width:767px) {
     .custom__center {
-        padding-left:16px;
+        padding-left: 16px;
         padding-right: 16px;
     }
-    
+
     .banners__block {
         display: grid;
         grid-template-columns: repeat(1, 450px);
@@ -202,4 +230,3 @@ a {
         justify-content: center;
     }
 }
-
