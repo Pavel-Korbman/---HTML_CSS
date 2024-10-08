@@ -95,7 +95,18 @@ a {
 
 .text__link:nth-child(2) {
     text-decoration: underline;
-} /* 2n - каждый второй элемент, 2n-1 первый третий ... */
+}
+/* 2n - каждый второй элемент, 2n-1 первый третий ... */
+
+.list__item__new::after {
+    content: ' New!';
+    color: darkred;
+}
+
+.list__item:hover::after {
+    content: '>>';
+    color: aquamarine;
+}
 
 .banners__block {
     display: grid;
@@ -191,14 +202,30 @@ a {
 
 .button {
     text-align: center;
+    background: linear-gradient(124deg, #5591f1 0%, #1153fc 100%);
     border-radius: 15px;
     padding: 15px 25px;
     width: 168px;
     height: 50px;
     color: white;
-    box-shadow: 5px 5px 10px 0 rgba(3, 69, 231, 0.3);
-    background: linear-gradient(124deg, #5591f1 0%, #1153fc 100%);
+    box-shadow: 5px 5px 10px 0 rgba(3, 69, 231, 0.3);    
     font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.button:hover {    
+    background: #1153fc;    
+}
+
+.icons_test {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;   
+    justify-content: center;    
+}
+
+.icon:hover path{
+    fill: #5591f1;
 }
 
 @media (max-width:1024px) {
@@ -229,4 +256,5 @@ a {
         justify-items: center;
         justify-content: center;
     }
+    
 }
