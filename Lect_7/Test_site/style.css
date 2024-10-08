@@ -1,3 +1,44 @@
+@keyframes heartbeat {
+    from {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    10% {
+        -webkit-transform: scale(0.91);
+        transform: scale(0.91);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    17% {
+        -webkit-transform: scale(0.98);
+        transform: scale(0.98);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    33% {
+        -webkit-transform: scale(0.87);
+        transform: scale(0.87);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    45% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+}
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -96,6 +137,7 @@ a {
 .text__link:nth-child(2) {
     text-decoration: underline;
 }
+
 /* 2n - каждый второй элемент, 2n-1 первый третий ... */
 
 .list__item__new::after {
@@ -205,27 +247,162 @@ a {
     background: linear-gradient(124deg, #5591f1 0%, #1153fc 100%);
     border-radius: 15px;
     padding: 15px 25px;
-    width: 168px;
-    height: 50px;
     color: white;
-    box-shadow: 5px 5px 10px 0 rgba(3, 69, 231, 0.3);    
+    box-shadow: 5px 5px 10px 0 rgba(3, 69, 231, 0.3);
     font-weight: 600;
-    transition: background-color 0.3s;
+    transition: background-color 1s;
 }
 
-.button:hover {    
-    background: #1153fc;    
+.button:hover {
+    background: #1153fc;
 }
 
 .icons_test {
     margin-top: 100px;
     display: flex;
-    flex-direction: row;   
-    justify-content: center;    
+    flex-direction: row;
+    justify-content: center;
 }
 
-.icon:hover path{
+.icon:hover path {
     fill: #5591f1;
+}
+
+.drive {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    transition: margin 3s;
+}
+
+.drive:hover .car {
+    margin-left: 900px;
+}
+
+.car {
+    width: 150px;
+    height: 50px;
+    border: solid 1px black;
+    transition: margin 3s;
+}
+
+.car__1 {
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.car__2 {
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.car__3 {
+    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.car__4 {
+    transition-timing-function: ease;
+}
+
+.car__5 {
+    transition-timing-function: ease-out;
+}
+
+.car__6 {
+    transition-timing-function: ease-in;
+}
+
+.board {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board__item {
+    width: 200px;
+    height: 150px;
+    border: solid 1px black;
+    border-style: inset;
+    transition: transform 1s;
+
+}
+
+.board__item-1:hover {
+    transform: translate(202px, -30px) scale(2);
+}
+
+.board__item-2:hover {
+    transform: translateY(-30px) scale(2);
+}
+
+.board__item-3:hover {
+    transform: translate(-202px, -30px) scale(2);
+}
+
+.propeller {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.prop__item {
+    position: absolute;
+    width: 250px;
+    height: 86px;
+    background-color: forestgreen;
+}
+
+.prop__item-1 {
+    transform: rotate(60deg);
+}
+
+.prop__item-3 {
+    transform: rotate(-60deg);
+}
+
+.trap {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trap__item {
+    width: 250px;
+    height: 86px;
+    background-color: forestgreen;
+    transform: skew(15deg);
+}
+
+.button__block__1 {
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.button-1 {
+    display: block;
+    text-align: center;
+    line-height: 36px;
+    background: linear-gradient(124deg, #5591f1 0%, #1153fc 100%);
+    border-radius: 15px;
+    height: 40px;
+    width: 120px;
+    color: white;
+    box-shadow: 5px 5px 10px 0 rgba(3, 69, 231, 0.3);
+    font-weight: 600;
+    transition: background-color 1s;
+    animation: heartbeat 1.5s ease-in-out both;
+}
+
+.button-1:hover {
+    background: #1153fc;
 }
 
 @media (max-width:1024px) {
@@ -256,5 +433,5 @@ a {
         justify-items: center;
         justify-content: center;
     }
-    
+
 }
