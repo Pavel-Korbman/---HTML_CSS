@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Open Sans';
+    background: #020a18;
+    color: #fff;
+}
+
