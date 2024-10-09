@@ -104,6 +104,7 @@ p {
     margin-left: 18px;
 }
 
+
 h4 {
     font-weight: 400;
     font-size: 16px;
@@ -131,6 +132,11 @@ h4 {
 .promo__block {
     height: 341px;
     background-color: #222224;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .promo__block__item {
@@ -147,11 +153,12 @@ h4 {
     font-size: 19px;    
 }
 
-.promo__block__item__text {
+.promo__block__item__text {    
+    text-align: center;
+    width: 280px;
     font-weight: 300;
     font-size: 13px;
-    text-align: center;
-    width: 280px;    
+    color: #fbfbfb; 
 }
 
 .subscribe__block {
