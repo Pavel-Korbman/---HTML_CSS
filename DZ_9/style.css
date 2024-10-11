@@ -331,6 +331,17 @@ h4 {
         margin-bottom: 71px;
     }
 
+    .promo__block {
+        height: 610px;
+        padding-top: 48px;
+        padding-bottom: 64px;
+        background-color: #222224;
+        display: flex;
+       
+        justify-content: center;
+        align-items: center;
+    }
+
     .off {
         display: flex;
     }
