@@ -127,7 +127,8 @@ h4 {
     color: #f26376;
     padding: 16px 40px;
 }
-.button:hover{
+
+.button:hover {
     background-color: #f26376;
     color: #FFFFFF;
 }
@@ -169,8 +170,7 @@ h4 {
     background-image: url(img/photo_subscribe.jpg);
     background-size: cover;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    flex-direction: row;    
     align-items: center;
     justify-content: space-between;
 }
@@ -185,12 +185,7 @@ h4 {
     color: #222224;
 }
 
-.subscribe__text__italic {
-    font-weight: 400;
-    font-size: 20px;
-    font-style: italic;
-    color: #222224;
-}
+
 
 .forma {
     padding-right: 70px;
@@ -271,15 +266,15 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
-} 
+}
 
 .footer__icon:hover {
-    background-color:#f16d7f;    
-} 
+    background-color: #f16d7f;
+}
 
-.footer__icon:hover path {    
+.footer__icon:hover path {
     fill: #FFFFFF;
-} 
+}
 
 .off {
     display: none;
@@ -334,12 +329,42 @@ h4 {
     .promo__block {
         height: 610px;
         padding-top: 48px;
-        padding-bottom: 64px;
-        background-color: #222224;
+        padding-bottom: 64px;        
         display: flex;
-       
-        justify-content: center;
-        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;      
+    } 
+
+    .subscribe__block {
+        display: flex;
+        height: 614px;
+        flex-direction: column;    align-items: center;       
+    }
+
+    .subscribe__text {
+        width: 359px;
+        padding-left: 0;
+        padding-top: 198px;
+        font-weight: 400;
+        font-size: 20px;
+        text-align: center;
+        color: #222224;
+    }
+
+    .forma {
+        padding-right: 0;      
+    }
+
+    .form {
+        padding-bottom: 140px;
+    }
+
+    .address {
+        padding-left: 17px;
+    }
+    
+    .footer__buttons {
+        padding-right: 17px;
     }
 
     .off {
