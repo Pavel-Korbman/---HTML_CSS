@@ -170,7 +170,7 @@ h4 {
     background-image: url(img/photo_subscribe.jpg);
     background-size: cover;
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
@@ -329,30 +329,27 @@ h4 {
     .promo__block {
         height: 610px;
         padding-top: 48px;
-        padding-bottom: 64px;        
+        padding-bottom: 64px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;      
-    } 
+        justify-content: space-between;
+    }
 
     .subscribe__block {
         display: flex;
         height: 614px;
-        flex-direction: column;    align-items: center;       
+        flex-direction: column;
+        align-items: center;
     }
 
     .subscribe__text {
         width: 359px;
         padding-left: 0;
         padding-top: 198px;
-        font-weight: 400;
-        font-size: 20px;
-        text-align: center;
-        color: #222224;
     }
 
     .forma {
-        padding-right: 0;      
+        padding-right: 0;
     }
 
     .form {
@@ -362,7 +359,7 @@ h4 {
     .address {
         padding-left: 17px;
     }
-    
+
     .footer__buttons {
         padding-right: 17px;
     }
@@ -423,6 +420,46 @@ h4 {
         margin-top: 41px;
         margin-bottom: 85px;
     }
+
+    .subscribe__block {
+        height: 550px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subscribe__text {
+        width: 343px;
+        padding-top: 189px;
+    }
+
+    .form {
+        padding-bottom: 110px;
+    }
+
+    .form__button {
+        width: 95px;
+    }
+
+    .field {        
+        width: 246px;             
+    }
+
+    .footer {
+        height: 143px;        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .address {
+        padding-left: 0;
+    }
+
+    .footer__buttons {
+        padding-right: 0;
+    }
+
+
 
     .off {
         display: none;
