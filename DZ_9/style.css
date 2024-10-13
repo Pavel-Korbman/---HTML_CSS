@@ -86,7 +86,7 @@ h5 {
 }
 
 h3 {
-    width: 324px;
+    max-width: 324px;
     font-weight: 400;
     font-size: 13px;
     color: #000;
@@ -95,7 +95,7 @@ h3 {
 }
 
 p {
-    width: 324px;
+    max-width: 324px;
     font-weight: 400;
     font-size: 14px;
     color: #5d5d5d;
@@ -184,8 +184,6 @@ h4 {
     text-align: center;
     color: #222224;
 }
-
-
 
 .forma {
     padding-right: 70px;
@@ -436,30 +434,32 @@ h4 {
         padding-bottom: 110px;
     }
 
+    .title__forma__norm {
+        font-size: 14px;   
+    }
+
     .form__button {
         width: 95px;
     }
 
     .field {        
-        width: 246px;             
+        width: 236px;             
     }
 
     .footer {
-        height: 143px;        
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+        height: 143px;       
+        flex-direction: column-reverse;
     }
 
     .address {
         padding-left: 0;
+        padding-bottom: 11px;
     }
 
     .footer__buttons {
         padding-right: 0;
+        padding-top: 42px;
     }
-
-
 
     .off {
         display: none;
@@ -474,17 +474,35 @@ h4 {
         justify-content: center;
         align-items: center;
     }
+}
 
-    @media (max-width: 360px) {
-        .center {
-            padding-left: 0;
-            padding-right: 0;
-        }
+@media (max-width: 374px) {
+    .center {
+        padding-left: 0;
+        padding-right: 0;
+    }
 
-        .goods {
-            grid-template-columns: 320px;
-            gap: 16px;
-        }
+    .goods {
+        grid-template-columns: 320px;
+        gap: 16px;
+    }
+
+    .subscribe__text {
+        width: 300px;
+        padding-top: 189px;
+    }  
+    
+    .forma {         
+        grid-template-columns: 320px;       
+    }
+
+    .field {        
+        width: 180px;             
+    }
+
+    .form {
+        padding-bottom: 110px;
+        padding-left: 10px;
     }
 
 
