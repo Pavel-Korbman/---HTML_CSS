@@ -1,0 +1,25 @@
+
+*{
+    padding-left: 0;
+    padding-right: 0;
+}
+.center_header {
+    padding-left: calc(50vw - 712px);
+    padding-right: calc(50vw - 712px);
+}
+
+.center {
+    padding-left: calc(50vw - 700px);
+    padding-right: calc(50vw - 700px);
+}
+
+.logo_header{
+    height: 30px;
+}
+
+.text__color{
+    color: dodgerblue !important;
+}
+.gap__goods{
+    gap: 10px;
+}
