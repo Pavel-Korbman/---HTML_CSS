@@ -53,6 +53,16 @@ body {
     justify-content: center;
 }
 
+.type__block__img {
+    position: relative;
+}
+
+.type__block__title {
+    position: absolute;
+    top: 105px;
+    left: 102px;
+}
+
 .title {
     padding-top: 104px;
     padding-bottom: 48px;
@@ -112,6 +122,8 @@ h4 {
     margin-left: 18px;
     margin-bottom: 24px;
 }
+
+
 
 .button__block {
     margin-top: 48px;
@@ -239,7 +251,7 @@ h4 {
     position: absolute;
 }
 
-.form__button:hover{
+.form__button:hover {
     border: solid 1px #F16D7F;
     color: #F16D7F;
     background-color: #fff;
@@ -442,19 +454,19 @@ h4 {
     }
 
     .title__forma__norm {
-        font-size: 14px;   
+        font-size: 14px;
     }
 
     .form__button {
         width: 95px;
     }
 
-    .field {        
-        width: 213px;             
+    .field {
+        width: 213px;
     }
 
     .footer {
-        height: 143px;       
+        height: 143px;
         flex-direction: column-reverse;
     }
 
@@ -497,14 +509,14 @@ h4 {
     .subscribe__text {
         width: 300px;
         padding-top: 189px;
-    }  
-    
-    .forma {         
-        grid-template-columns: 320px;       
     }
 
-    .field {        
-        width: 157px;             
+    .forma {
+        grid-template-columns: 320px;
+    }
+
+    .field {
+        width: 157px;
     }
 
     .form {
