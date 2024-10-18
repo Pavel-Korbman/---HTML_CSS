@@ -239,6 +239,12 @@ h4 {
     position: absolute;
 }
 
+.form__button:hover{
+    border: solid 1px #F16D7F;
+    color: #F16D7F;
+    background-color: #fff;
+}
+
 .footer {
     height: 79px;
     background-color: #222224;
