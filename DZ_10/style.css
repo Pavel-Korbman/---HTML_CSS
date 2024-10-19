@@ -53,14 +53,50 @@ body {
     justify-content: center;
 }
 
-.type__block__img {
-    position: relative;
+.type__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.type__block__title {
-    position: absolute;
-    top: 105px;
-    left: 102px;
+.type__item__bgrd-1 {
+    height: 260px;
+    width: 360px;
+    background-image: url(img/top_banner_women.jpg);
+}
+
+.type__item__bgrd-2 {
+    height: 260px;
+    width: 360px;
+    background-image: url(img/top_banner_men.jpg);
+}
+
+.type__item__bgrd-3 {
+    height: 260px;
+    width: 360px;
+    background-image: url(img/top_banner_kids.jpg);
+}
+
+.type__item__bgrd-4 {
+    height: 180px;
+    width: 1142px;
+    background-image: url(img/top_banner_accesories.jpg);
+}
+
+
+
+.type__item__text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+
+.type__item__text-1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F16D7F;
+    text-align: center;
 }
 
 .title {
@@ -83,7 +119,7 @@ body {
     background-color: #f8f8f8;
 }
 
-.h1 {
+h1 {
     font-weight: 400;
     font-size: 30px;
     color: #222;
@@ -166,7 +202,7 @@ h4 {
 .promo__block__item__title {
     padding-top: 10px;
     font-weight: 400;
-    font-size: 19px;    
+    font-size: 19px;
 }
 
 .promo__block__item__text {
@@ -328,6 +364,30 @@ h4 {
         gap: 20px;
     }
 
+    .type__item__bgrd-1 {
+        height: 168px;
+        width: 233px;
+        background-image: url(img/top_banner_women_mini.jpg);
+    }
+
+    .type__item__bgrd-2 {
+        height: 168px;
+        width: 233px;
+        background-image: url(img/top_banner_men_mini.jpg);
+    }
+
+    .type__item__bgrd-3 {
+        height: 168px;
+        width: 233px;
+        background-image: url(img/top_banner_kids_mini.jpg);
+    }
+
+    .type__item__bgrd-4 {
+        height: 118px;
+        width: 735px;
+        background-image: url(img/top_banner_accesories_mini.jpg);
+    }
+
     .title {
         padding-top: 117px;
         padding-bottom: 73px;
@@ -423,6 +483,30 @@ h4 {
         gap: 32px;
     }
 
+    .type__item__bgrd-1 {
+        height: 248px;
+        width: 343px;
+        background-image: url(img/top_banner_women.jpg);
+    }
+
+    .type__item__bgrd-2 {
+        height: 248px;
+        width: 343px;
+        background-image: url(img/top_banner_men.jpg);
+    }
+
+    .type__item__bgrd-3 {
+        height: 248px;
+        width: 343px;
+        background-image: url(img/top_banner_kids.jpg);
+    }
+
+    .type__item__bgrd-4 {
+        height: 111px;
+        width: 343px;
+        background-image: url(img/top_banner_accesories.jpg);
+    }
+
     .title {
         padding-top: 73px;
         padding-bottom: 65px;
@@ -501,6 +585,35 @@ h4 {
     .center {
         padding-left: 0;
         padding-right: 0;
+    }
+
+    .title__text {
+        width: 280px;
+        text-align: center;
+    }
+
+    .type__item__bgrd-1 {
+        height: 231px;
+        width: 320px;
+        background-image: url(img/top_banner_women.jpg);
+    }
+
+    .type__item__bgrd-2 {
+        height: 231px;
+        width: 320px;
+        background-image: url(img/top_banner_men.jpg);
+    }
+
+    .type__item__bgrd-3 {
+        height: 231px;
+        width: 320px;
+        background-image: url(img/top_banner_kids.jpg);
+    }
+
+    .type__item__bgrd-4 {
+        height: 103px;
+        width: 320px;
+        background-image: url(img/top_banner_accesories.jpg);
     }
 
     .goods {
