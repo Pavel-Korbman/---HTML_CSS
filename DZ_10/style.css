@@ -188,6 +188,7 @@ h4 {
 }
 
 .subscribe__text {
+    width: 359px;
     padding-top: 70px;
     padding-left: 35px;
     margin: 0;
@@ -455,6 +456,7 @@ h4 {
 
     .title__forma__norm {
         font-size: 14px;
+        width: 300px;
     }
 
     .form__button {
