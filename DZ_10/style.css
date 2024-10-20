@@ -143,6 +143,15 @@ position: relative;
     display: none;    
 }
 
+p {
+    max-width: 324px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #5d5d5d;
+    margin-top: 20px;
+    margin-left: 18px;
+}
+
 
 .h1 {
     font-weight: 400;
