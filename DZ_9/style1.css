@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.center {
+    padding-left: calc(50vw - 570px);
+    padding-right: calc(50vw - 570px);
+}
+
+
+
+.goods {
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    gap: 30px;
+    justify-content: center;
+}
+
+.item {
+    background-color: #f8f8f8;
+}
+
+.item:hover img {
+    display: inline;
+}
+
+.item__foto {
+position: relative;
+}
+
+.hoover__on {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;    
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 30px;
+    color: #222;
+}
+
+h5 {
+    font-weight: 400;
+    font-size: 14px;
+    color: #9f9f9f;
+}
+
+h3 {
+    max-width: 324px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #000;
+    margin-top: 24px;
+    margin-left: 18px;
+}
+
+p {
+    max-width: 324px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #5d5d5d;
+    margin-top: 20px;
+    margin-left: 18px;
+}
+
+
+h4 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #f16d7f;
+    margin-top: 20px;
+    margin-left: 18px;
+    margin-bottom: 24px;
+}
+
+.off {
+    display: none;
+}
+
+.mobyle__on {
+    display: none;
+}
+
+@media (max-width: 1140px) {
+    .center {
+        padding-left: calc(50vw - 368px);
+        padding-right: calc(50vw - 368px);
+    }
+
+    .goods {
+        grid-template-columns: repeat(2, 360px);
+        gap: 16px;
+    }
+
+
+    .off {
+        display: flex;
+    }
+
+    .on {
+        display: none;
+    }
+
+}
+
+@media (max-width: 736px) {
+    p {
+        max-width: 314px;
+    }
+
+    h3 {
+        max-width: 314px;
+    }
+
+    .center {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .goods {
+        grid-template-columns: 360px;
+        gap: 16px;
+    }
+
+    .off {
+        display: none;
+    }
+
+    .mobyle__off {
+        display: none;
+    }
+
+    .mobyle__on {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 374px) {
+    .center {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .goods {
+        grid-template-columns: 320px;
+        gap: 16px;
+    }
+
+}

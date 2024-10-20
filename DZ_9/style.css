@@ -83,6 +83,21 @@ body {
     background-color: #f8f8f8;
 }
 
+.item:hover img {
+    display: inline;
+}
+
+.item__foto {
+position: relative;
+}
+
+.hoover__on {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;    
+}
+
 .h1 {
     font-weight: 400;
     font-size: 30px;
