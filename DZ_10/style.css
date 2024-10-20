@@ -21,6 +21,13 @@ body {
     padding-right: calc(50vw - 570px);
 }
 
+li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    line-height: 150%;
+}
+
 .fix {
     position: fixed;
     top: 0;
@@ -47,6 +54,57 @@ body {
     display: flex;
     gap: 33px;
     align-items: center;
+}
+
+
+.burger__button {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.burger__button:hover path {
+    fill: #f16d7f;
+}
+
+.burger__button:hover nav {
+    display: block;
+}
+
+.burger__menu {
+    width: 232px;
+    height: 634px;    
+    background-color: #fff;
+    box-shadow: 6px 4px 35px 0 rgba(0, 0, 0, 0.21);
+    position: absolute;
+    top: 76px;
+    left: calc(50vw - 644px);
+    display: none;
+}
+
+.burger__title {
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+    padding-left: 33px;
+    padding-top: 36px;
+}
+
+.burger__subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    color: #f16d7f;
+    padding-left: 33px;
+    padding-bottom: 14px;
+    padding-top: 30px;
+}
+
+.burger__text {
+    font-weight: 400;
+    font-size: 14px;
+    color: #6f6e6e;
+    padding-left: 54px;
 }
 
 .title__block {
@@ -392,6 +450,10 @@ h4 {
         padding-right: 15px;
     }
 
+    .burger__menu {
+        left: calc(50vw - 428px);       
+    }
+
     .title__block {
         margin-bottom: 64px;
     }
@@ -515,6 +577,11 @@ h4 {
 
     .header__buttons {
         margin-right: 15px;
+    }
+
+    .burger__menu {
+        top: 76px;
+        left: -168px;  
     }
 
     .title__block {
