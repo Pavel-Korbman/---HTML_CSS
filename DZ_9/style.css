@@ -29,6 +29,13 @@ body {
     align-items: center;
 }
 
+.fix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
 .header__logo {
     display: flex;
     gap: 40px;
@@ -42,6 +49,7 @@ body {
 }
 
 .title__block {
+    margin-top: 75px;
     margin-bottom: 65px;
     background-color: #f1e4e6;
 }
