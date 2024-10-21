@@ -74,12 +74,12 @@ li {
 
 .burger__menu {
     width: 232px;
-    height: 634px;    
+    height: 634px;
     background-color: #fff;
     box-shadow: 6px 4px 35px 0 rgba(0, 0, 0, 0.21);
     position: absolute;
     top: 76px;
-    left: calc(50vw - 644px);
+    left: -74px;
     display: none;
 }
 
@@ -191,14 +191,14 @@ li {
 }
 
 .item__foto {
-position: relative;
+    position: relative;
 }
 
 .hoover__on {
     position: absolute;
     top: 0;
     left: 0;
-    display: none;    
+    display: none;
 }
 
 p {
@@ -251,8 +251,6 @@ h4 {
     margin-bottom: 24px;
 }
 
-
-
 .button__block {
     margin-top: 48px;
     margin-bottom: 95px;
@@ -291,8 +289,8 @@ h4 {
     gap: 24px;
 }
 
-.promo__block__item:hover{
-    color:#f16d7f;
+.promo__block__item:hover {
+    color: #f16d7f;
 }
 
 .promo__block__item__title {
@@ -451,7 +449,7 @@ h4 {
     }
 
     .burger__menu {
-        left: calc(50vw - 428px);       
+        left: -64px;
     }
 
     .title__block {
@@ -581,7 +579,7 @@ h4 {
 
     .burger__menu {
         top: 76px;
-        left: -168px;  
+        left: -168px;
     }
 
     .title__block {
